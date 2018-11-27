@@ -43,7 +43,7 @@ def rouge_pieton():
     signal_rouge_pieton.on()
 
 def vert_pieton_clignotement():
-	signal_vert_pieton.blink(on_time=0.5, off_time=0.5, n=3)
+	signal_vert_pieton.blink(on_time = 0.5, off_time = 0.5, n = 3, background = False)
 	
 try:
     while True:
