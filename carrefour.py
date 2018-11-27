@@ -33,6 +33,7 @@ def rouge_voiture():
     signal_vert_voiture.off()
     signal_orange_voiture.off()
     signal_rouge_voiture.on()
+
 def vert_pieton():
     signal_vert_pieton.on()
     signal_rouge_pieton.off()
@@ -41,6 +42,9 @@ def rouge_pieton():
     signal_vert_pieton.off()
     signal_rouge_pieton.on()
 
+def vert_pieton_clignotement():
+	signal_vert_pieton.blink(on_time=0.5, off_time=0.5, n=3)
+	
 try:
     while True:
         
