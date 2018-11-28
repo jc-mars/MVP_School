@@ -7,9 +7,9 @@ import sys
 signal_vert_voiture = LED(17)
 signal_orange_voiture = LED(27)
 signal_rouge_voiture = LED(22)
-signal_vert_pieton = LED(23)
-signal_rouge_pieton = LED(24)
-bouton_pieton = Button(25)
+signal_vert_pieton = LED(5)
+signal_rouge_pieton = LED(6)
+bouton_pieton = Button(26)
 bouton = "bouton"
 
 
